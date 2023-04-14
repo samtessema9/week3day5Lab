@@ -9,7 +9,12 @@ const printGretting = (name) => {
 }
 printGretting('Jon');
 
+//print cool
+const printCool=(name)=>{
+    console.log(name, "is Cool");
+}
 
+printCool("Captain Reynolds");
 
 const calculateCube = (num) => {
     cubeValume = num * num * num;
