@@ -1,12 +1,14 @@
 //Loops
 //A the basics
+//1
 for(let i = 0; i<=10;i++){
     console.log(i);
 }
-
+//2
 for(let i = 10; i<=400;i++){
     console.log(i);
 }
+//3
 let count = 0;
 for(let i = 12; i<4000;i++){
     if(count == 2){
