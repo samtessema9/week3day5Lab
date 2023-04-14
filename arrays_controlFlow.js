@@ -4,9 +4,9 @@
 
 // 1. The values inside an array are called Elements.
 
-// 2. Arrays do guarantee the elements you put inside will be in order.
+// 2. Arrays do guarantee the elements you put inside will be in order. (Yes)
 
-// 3. A reallife thing that can be moddeled with an array is the names of all the students in a class.
+// 3. A real-life thing that can be moddeled with an array is the names of all the students in a class.
 
 
 // B
