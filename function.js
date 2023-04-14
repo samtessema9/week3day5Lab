@@ -64,6 +64,9 @@ console.log(maxOfthree(6, 9, 1));
 
 
 
+
+
+
 const printLongestWord = (wordArray) => {
     console.log(wordArray.sort((a, b) => b.length - a.length)[0]);
 }
