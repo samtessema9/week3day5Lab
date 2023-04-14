@@ -20,5 +20,6 @@ jobs:
       with:
         node-version: 16
     - run: node loops.js
+    - run: node function.js
 #     - run: npm run build --if-present
 #     - run: npm test
