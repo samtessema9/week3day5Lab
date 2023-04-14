@@ -31,4 +31,6 @@ const combineCats = (obj1, obj2) =>{
 let newCat = combineCats(cat1, cat2);
 console.table(newCat);
 
-console.log(combineCats(combineCats(cat1, cat2), combineCats(cat1, cat2)));
+console.log(combineCats(newCat, newCat));
+let level_2 = combineCats(newCat, newCat)
+console.log("Level-3", combineCats(level_2, level_2));
