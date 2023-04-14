@@ -1,4 +1,4 @@
-console.log("hello world");
+console.lssog("hello world");
 
 // How do we assign a value to a variable?
 
