@@ -1,16 +1,16 @@
 //Loops
 //A the basics
 for(let i = 0; i<=10;i++){
-    // console.log(i);
+    console.log(i);
 }
 
 for(let i = 10; i<=400;i++){
-    // console.log(i);
+    console.log(i);
 }
 let count = 0;
 for(let i = 12; i<4000;i++){
     if(count == 2){
-        // console.log(i);
+        console.log(i);
         count = 0;
     }else{
         count ++;
