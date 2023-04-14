@@ -8,7 +8,7 @@
 // We can reassign the new value of a variable.
 
 //3. How do we assign an existing variable to a new variable?
-//We need to use the assignment operator.
+//We need to use the assignment operator. 
 
 //4. Remind me, what are declare, assign, and define?
 // Declare is creating a variable. Assign mean that the assignment ( = ) operator is used to assign a value to a variable.
@@ -28,7 +28,7 @@
 // For all other questions that involve writing code, you can solve them via the following instructions.
 
 // Create a variable called firstVariable
-// let firstVariable;
+let firstVariable;
 
 // Assign it the value of the string "Hello World"
 // firstVariable = "Hello World";
