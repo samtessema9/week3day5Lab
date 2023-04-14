@@ -41,9 +41,29 @@ console.log(getTwoLegths("Han", "Hippopalous"));
 
 
 const getMultipleLengths = (arryOfStrings) => {
+    let resultArray = [];
     arryOfStrings.forEach(strin => {
-        console.log(strin);
+        resultArray.push(strin.length);
     })
+    return console.log(resultArray);
 }
+getMultipleLengths(["hello", "what", "is", "up", "dude"]);
 
-console.log(getMultipleLengths(["hello", "what", "is", "up", "dude"]))
+
+
+const maxOfthree = (num1, num2, num3) => {
+    if(num1 > num2 && num1 > num3) {
+        return num1;
+    } else if(num2 > num1 && num2 > num3) {
+        return num2;
+    } else {
+        return num3;
+    }
+}
+console.log(maxOfthree(6, 9, 1));
+
+
+const printLongestWord = (wordArray) => {
+    console.log(wordArray.sort((a, b) => b.length - a.length)[0]);
+}
+printLongestWord(["BoJack", "Princess", "Diane", "a", "Max", "Peanutbutter", "big", "Todd"]);
